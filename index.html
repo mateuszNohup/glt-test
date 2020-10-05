@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=78e1d7c1-9a29-4107-904f-f973a078fa54"> </script>
+  <title>Vite App</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    window.zESettings = {
+      webWidget: {
+        contactForm: {
+          attachments: false
+        },
+        chat: {
+          suppress: false,
+          notifications: {
+            mobile: {
+              disable: true
+            }
+          }
+        }
+      }
+    };
+
+    zE('webWidget', 'prefill', {
+      name: {
+        value: "fill_name",
+      },
+      email: {
+        value: "fill_email"
+      },
+      phone: {
+        value: "fill_phone"
+      }
+    })
+
+    zE('webWidget', 'identify', {
+      name: 'Mateusz Kulesza',
+      email: 'mateusz@nohup.it',
+    });
+  </script>
+</body>
+
+</html>
